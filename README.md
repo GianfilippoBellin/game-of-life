@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 On Windows 10 installl WSL https://docs.microsoft.com/it-it/windows/wsl/install
 
-sudo apt-get install -y nodejs
+`sudo apt-get install -y nodejs`
 `sudo apt-get update`
 `sudo apt-get upgrade`
 `curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
