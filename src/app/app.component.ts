@@ -27,9 +27,9 @@ export class AppComponent {
     this.board = new Board(this.numCols, this.numRows);
   }
 
-  onClick(row: any, col: any) {
+/*   onClick(row: any, col: any) {
     this.board.changeStatus(row, col);
-  }
+  } */
 
   onClickPausa() {
     this.pausa = this.pausa === false ? true: false;

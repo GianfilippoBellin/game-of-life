@@ -10,7 +10,7 @@
 <div class="game">
   <div class="row" *ngFor="let row of numRows | numToArray">
     <div class="col" *ngFor="let col of numCols | numToArray">
-      <button (click)="onClick(row,col)" [ngClass]="{alive: board.status(row,col) === 1}"></button>
+      <button [ngClass]="{alive: board.status(row,col) === 1}"></button>
     </div>
   </div>
 </div>
