@@ -4,9 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-On Windows 10 installl WSL https://docs.microsoft.com/it-it/windows/wsl/install
+On Windows 10 install WSL https://docs.microsoft.com/it-it/windows/wsl/install
 
-`sudo apt-get install -y nodejs`
 `sudo apt-get update`
 `sudo apt-get upgrade`
 `curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
@@ -19,7 +18,7 @@ In the directory `game-of-life` Run `ng serve` for a dev server. Navigate to `ht
 This project is a realization of Conway's Game of Life with Angular 
 more info about the game at https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-The button Restart create a new random inital seed
+The button Restart create a new random initial seed
 The button Pause/Resume pause and restart the game
 
 ## Further help
