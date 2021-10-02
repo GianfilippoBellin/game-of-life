@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+On Windows 10
+
 Download Visual Studio Code https://code.visualstudio.com/
 
 Install Node.js and NPM from Browser
