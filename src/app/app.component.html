@@ -4,13 +4,13 @@
 
 <div class="info">
   <button class="restart" mat-stroked-button color="primary" (click)="onClickRestart()">Restart</button>
-  <button  class="pause" mat-stroked-button color="primary" (click)="onClickPausa()">Pausa/Riprendi</button>
+  <button  class="pause" mat-stroked-button color="primary" (click)="onClickPausa()">Pause/Resume</button>
 </div>
 
 <div class="game">
   <div class="row" *ngFor="let row of numRows | numToArray">
     <div class="col" *ngFor="let col of numCols | numToArray">
-      <button [ngClass]="{alive: board.status(row,col) === 1}"></button>
+      <button  [ngClass]="{alive: board.status(row,col) === 1}"></button>
     </div>
   </div>
 </div>
