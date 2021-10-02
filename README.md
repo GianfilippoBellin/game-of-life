@@ -4,22 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-On Windows 10
+On Windows 10 installl WSL https://docs.microsoft.com/it-it/windows/wsl/install
 
-Download Visual Studio Code https://code.visualstudio.com/
+sudo apt-get install -y nodejs
+`sudo apt-get update`
+`sudo apt-get upgrade`
+`curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
+`sudo apt-get install -y nodejs`
+`npm install -g @angular/cli`
 
-Install Node.js and NPM from Browser
-
-The system should display the Node.js version installed on your system. You can do the same for NPM:
-
-Open a command prompt (or PowerShell), and enter the following:
-node -v
-
-npm -v
-
-Run in the Visual Studio Code terminal `npm install -g @angular/cli`
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In the directory `game-of-life` Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Instruction to play
 This project is a realization of Conway's Game of Life with Angular 
